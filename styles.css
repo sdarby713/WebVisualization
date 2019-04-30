@@ -45,6 +45,10 @@ h6 {
     float: left;
 }
 
+.navbar {
+    background: #F8F9FA;
+}
+
 #vizbody {
     background: white;
     padding: 16px;
@@ -72,6 +76,7 @@ h6 {
     border-radius: 5px;
 }
 
-@media (max-width: 480px) {
-    .topbar { background-color #17A2B8 }
+@media (max-width: 767px) {
+    .navbar { background: #17A2B8; }
+    .topbar { background: #17A2B8; }
 }
